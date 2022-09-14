@@ -11,7 +11,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                git 'https://github.com/Priyadharsini01/sample-node-application.git'
+                git 'https://gitlab.com/pmv5/jenkins-project.git'
             }
         }
 
